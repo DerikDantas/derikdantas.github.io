@@ -43,7 +43,7 @@ export const Container = styled.div`
 
     .linha-icons > a{
         background: #C4C4C4;
-        color: ${({ theme }) => theme.text};
+        color: #333;
         font-size: 30px;
         text-decoration: none;
         display: flex;
@@ -52,7 +52,7 @@ export const Container = styled.div`
         width: 60px;
         height: 60px;
         margin: 10px;
-        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        box-shadow: ${({theme}) => theme.toggleShadow};
 
         &:hover{
             box-shadow: none;

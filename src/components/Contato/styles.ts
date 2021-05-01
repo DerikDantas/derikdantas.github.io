@@ -18,6 +18,7 @@ export const Container = styled.div`
             font-size: 80px;
             letter-spacing: 5px;
             margin: 0;
+            text-decoration: uppercase;
         }
     }
     
